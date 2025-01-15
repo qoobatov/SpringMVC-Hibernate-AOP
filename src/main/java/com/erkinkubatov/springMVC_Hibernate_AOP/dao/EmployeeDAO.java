@@ -1,0 +1,9 @@
+package com.erkinkubatov.springMVC_Hibernate_AOP.dao;
+
+import com.erkinkubatov.springMVC_Hibernate_AOP.entity.Employee;
+
+import java.util.List;
+
+public interface EmployeeDAO {
+    public List<Employee> getAllEmployees();
+}
