@@ -15,14 +15,16 @@
         <th>Department</th>
         <th>Salary</th>
     </tr>
-        <c:forEach var="emp" items="${allEmps}">
-    <tr>
-        <td>${emp.name}</td>
-        <td>${emp.surname}</td>
-        <td>${emp.department}</td>
-        <td>${emp.salary}</td>
-    </tr>
+    <c:forEach var="emp" items="${allEmps}">
+        <tr>
+            <td>${emp.name}</td>
+            <td>${emp.surname}</td>
+            <td>${emp.department}</td>
+            <td>${emp.salary}</td>
+        </tr>
     </c:forEach>
 </table>
+<br>
+<input type="button" value="Add Employee" onclick="window.location.href='add-new-employee'">
 </body>
 </html>
