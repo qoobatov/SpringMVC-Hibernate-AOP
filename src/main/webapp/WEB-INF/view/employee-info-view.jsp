@@ -10,6 +10,8 @@
 <h2>Employee Information</h2>
 <br>
 <form:form action="save-employee" modelAttribute="employee">
+    <form:hidden path="id"/>
+
     Name: <form:input path="name"/>
     <%--    <form:errors path="name" cssClass="error"/>--%>
     <br><br>
